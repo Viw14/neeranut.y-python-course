@@ -4,14 +4,16 @@ print("Hello, World!")
 
 # Exercise 2: Custom Print Statement
 # Write a print statement that displays your name, e.g., "My name is Your Name
-print("My name is Your Name")
+print("My name is Neeranut Yimmoi")
 
 # Exercise 3: Multiple Print Statements
 # Write three print statements that display:
 # Line 1: Your name
 # Line 2: Your age
 # Line 3: Your favorite hobbyๅ
-# Write your code here:
+print("Name: Neeranut YIMNOI")
+print("Age: 20")
+print("Favorite hobby: Listening to music")
 
 
 # Exercise 4: Print with Different Content
@@ -19,8 +21,9 @@ print("My name is Your Name")
 # - A number (any number you like)
 # - A word
 # - A sentence with spaces
-
-# Write your code here:
+print(100)
+print("Python")
+print("I enjoy learning Python programing.")
 
 
 
@@ -31,13 +34,11 @@ print("Second line")
 print("Third", "line", "with", "multiple", "arguments")
 
 # Exercise 6: Comments Practice
-# Add comments above each print statement explaining what it does
-
-# 
+# This prints a welcome message.
 print("Welcome to Python programming!")
 
-# 
+# This prints a sentence saying Python is fun.
 print("Python is fun!")
 
-# 
+# This prints a sentence about learning to code.
 print("I am learning to code!")
