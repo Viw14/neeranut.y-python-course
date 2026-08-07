@@ -1,0 +1,17 @@
+# exam-score.py
+
+scores = []
+
+print("Enter scores for 5 students:")
+
+for i in range(5):
+    score = int(input(f"Student {i + 1}: "))
+    scores.append(score)
+
+print("\nResult")
+
+for i in range(5):
+    if scores[i] >= 50:
+        print(f"Student {i + 1}: {scores[i]} - Pass")
+    else:
+        print(f"Student {i + 1}: {scores[i]} - Fail")

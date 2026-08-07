@@ -1,0 +1,27 @@
+# buy-notbuy.py
+
+prices = []
+buy_list = []
+total = 0
+
+print("Enter prices for 6 items:")
+
+for i in range(6):
+    price = float(input(f"Item {i + 1}: "))
+    prices.append(price)
+
+budget = float(input("Enter your budget: "))
+
+print("\nPurchase Result")
+
+for price in prices:
+    if total + price <= budget:
+        print(f"{price} -> buy")
+        buy_list.append(price)
+        total += price
+    else:
+        print(f"{price} -> cannot buy")
+
+print("\nItems bought:", buy_list)
+print("Total spent:", total)
+print("Remaining budget:", budget - total)
