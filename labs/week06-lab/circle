@@ -1,0 +1,9 @@
+import math
+
+def calculate_circle(radius):
+    area = math.pi * radius ** 2
+    print(f"Radius = {radius}")
+    print(f"Area = {area:.2f}")
+
+# Example
+calculate_circle(5)
