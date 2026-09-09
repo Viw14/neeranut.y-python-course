@@ -1,0 +1,10 @@
+# รับค่า password จากผู้ใช้
+#password นั้นแข็งแรงหรือไม่
+#password นั้นจะแข็งแรง ถ้าประกอบไปด้วยตัวเลข ตัวอักษร มี '@' 1 ตัว ยาวมากกว่า 8 ตัว
+
+#ตัวอย่างหน้าจอ
+#Please input your password: Neeranut
+#Your password is not strong!
+
+# Please input your password: @Viw1408
+# Your password is strong
