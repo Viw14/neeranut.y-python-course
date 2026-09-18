@@ -1,0 +1,28 @@
+print("=== โจทย์ 1: เครื่องคำนวณอย่างปลอดภัย ===")
+
+try:
+    num1 = float(input("ตัวเลขที่ 1: "))
+    num2 = float(input("ตัวเลขที่ 2: "))
+    operator = input("ตัวดำเนินการ (+, -, *, /): ")
+
+    if operator == "+":
+        result = num1 + num2
+    elif operator == "-":
+        result = num1 - num2
+    elif operator == "*":
+        result = num1 * num2
+    elif operator == "/":
+        result = num1 / num2
+    else:
+        raise ValueError("ตัวดำเนินการไม่ถูกต้อง")
+
+    print("ผลลัพธ์ =", result)
+
+except ValueError:
+    print("กรุณากรอกข้อมูลให้ถูกต้อง")
+
+except ZeroDivisionError:
+    print("ไม่สามารถหารด้วยศูนย์ได้")
+
+finally:
+    print("จบการทำงาน")

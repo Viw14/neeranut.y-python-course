@@ -1,0 +1,12 @@
+try:
+   numerator = float(input("กรอกตัวตั้ง: "))
+   denominator = float(input("กรอกตัวหาร: "))
+
+   result = numerator / denominator
+   print(f"ผลลัพธ์ = {result}")
+
+except ValueError:
+    print("กรุณากรอกตัวเลขให้ถูกต้อง")
+
+except ZeroDivisionError:
+    print("ไม่สามารถหารด้วยศูนย์ได้")
