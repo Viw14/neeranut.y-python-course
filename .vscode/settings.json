@@ -22,4 +22,5 @@
     "editor.suggestOnTriggerCharacters": false,
     "editor.suggest.showWords": false,
     "editor.hover.enabled": "off",
+    "python-envs.defaultEnvManager": "ms-python.python:system",
 }
